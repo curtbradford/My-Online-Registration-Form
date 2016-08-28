@@ -1,0 +1,206 @@
+
+.banner {
+    background: #1f1f2e;
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bannerhead {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.signhead,
+.signparagraph {
+    text-align: center;
+    vertical-align: top;
+}
+
+.signparagraph {
+    font-size: 1.3em;
+    color: #bfbfbf;
+    padding-bottom: 50px;
+    border-bottom: 7px solid black;
+}
+
+.signinfo {
+    margin-bottom: 25px;
+}
+
+.gline {
+    border: 2px solid grey;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.contactinfo {
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    line-height: 60px;
+}
+
+label,
+.newsletter,
+.newsletterhead,
+.nformat {
+    font-size: 1.4em;
+    color: #999999;
+}
+
+#name,
+#email,
+#phonenum,
+#address,
+#city,
+#state,
+#zip,
+select {
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #f2f2f2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
+#hnews,
+#cnews,
+#jnews,
+#hformat,
+#ptformat {
+    margin-right: 10px;
+}
+
+select {
+        font-size: 1.3em;
+        padding: 10px;
+    }
+
+.htmlnews,
+.cssnews,
+.javanews,
+.htmlformat {
+    display: block;
+    margin: 15px auto;
+}
+
+.centerbutton {
+text-align: center;
+}
+
+#subutton {
+    background: #52bab3;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+#copyright {
+    color: #bfbfbf;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#addtopics {
+    background: #f2f2f2;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+
+/*Media Queries*/
+
+@media (min-width: 760px) {
+    
+    .newsletterhead {
+        color: inherit;
+    }
+    
+    .zipcodediv {
+        border-bottom: 2px solid black;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    
+    #name,
+    #email,
+    #phonenum,
+    #address,
+    #city,
+    #state
+        {
+        width: inherit;
+        width: 65%;
+        float: right;
+        margin-top: -10px;
+    }
+    
+    #zip {
+        width: 30%;
+        float: right;
+    }
+    
+    #name,
+    #email,
+    #state {
+    width: 65.8%;
+    }
+  
+   .clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+    margin: 25px 0;
+}
+    
+    .fullnamediv {
+        padding-top: 50px;
+    }
+    
+    input:focus {
+        outline: 0;
+        border: 2px solid navy;
+    }
+    
+    #state {
+        margin-top: 3px;
+    }
+    
+    #zip {
+        margin-top: -8px;
+        margin-right: 35%;
+    }
+    
+    select:focus {
+        outline: 0;
+        border: 2px solid navy;
+    }
+    
+    form {
+        max-width: 1024px;
+    }
+    
+}
